@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+.page-header{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 800px;
+  background-image: url(/images/top-page-v5.jpg);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBox{
+  position: sticky;
+  top: 0;
+  margin: auto;
+  width: 98vw;
+  height: 72px;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBox-hidden{
+  position: sticky;
+  top: 0;
+  margin: auto;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBox-hidden:hover{
+  position: sticky;
+  top: 0;
+  margin: auto;
+  width: 98vw;
+  height: 72px;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.navTopMargin{
+  margin: auto;
+  width: 98vw;
+  height: 10px;
+  background-color: transparent;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.navbar{
+  margin: auto;
+  padding: 0;
+  width: 98vw;
+  height: 60px;
+  background-color: whitesmoke;
+  border: 1px solid rgba(255, 255, 255, 0.158);
+  opacity: 0.8;
+  z-index: 1;
+  transition: 1s;
+  box-sizing: border-box;
+
+}
+
+.navbar-trans{
+  margin: auto;
+  padding: 0;
+  width: 98vw;
+  height: 60px;
+  background-color: transparent;
+  z-index: 1;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+
+.navbar-trans ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 96vw;
+  flex-direction: row-reverse;
+  margin: 0;
+  padding: 0;
+  color: black(185, 213, 224);
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar ul{
+  display: flex;
+  width: 96vw;
+  flex-direction: row-reverse;
+  margin: 0;
+  padding: 0;
+  color: black(185, 213, 224);
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.manu-items{
+  margin-right: 30px;
+  margin-top: 18px;
 }
+
+.logo{
+  position: relative;
+  top: 150px;
+  left: 4%;
+  width: 57vw;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  background-image: url(/images/logo-hesh.png);
+  background-repeat: no-repeat; 
+  background-size: contain;
+  
+}
+
+.hero-con{
+  width: 100%;
+  margin-top: 800px;
+  height: 100vh;
+  background-color: #e9e4de;
+  display: flex;
+}
+
+.billsAreaContainer{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
+.billsStatsContainer{
+width: 100%;
+height: auto;
+min-height: 100vh;
+}
+
+
+

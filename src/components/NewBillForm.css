@@ -1,0 +1,165 @@
+.actionButtonsBar{
+    direction: rtl;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    -webkit-box-shadow: -1px 6px 15px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 6px 15px -5px rgba(0,0,0,0.3);
+    box-shadow: -1px 6px 15px -5px rgba(0,0,0,0.3);
+}
+
+.barTitle{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right: 50%;
+    transform: translateX(75%);
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    color: #112A46;
+    box-sizing: border-box;
+    background-image: url(/images/texture.png);
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    color: #a0c0d9ab;
+    
+}
+
+.formTitle{
+    width: 100%;
+    height: 30px;
+    background-color: #112A46;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 15px 0px; 
+}
+
+.initialDetailsContainer{
+    width: 100%;
+    height: 130px;
+    border-top: solid 8px #112A46;
+    
+}
+
+.dueDateContainer{
+    width: 100%;
+    height: 248px;
+    border-top: solid 8px #112A46;
+    
+}
+
+.paymentPriceContainer{
+    width: 100%;
+    height: 160px;
+    border-top: solid 8px #112A46;
+    
+}
+
+.headerTitleName{
+    width: 30%;
+    height: auto;
+    background-color: #112A46;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 0px 5px;
+    margin-bottom: 22px;  
+}
+
+.headerTitleDueDate{
+    width: 30%;
+    height: auto;
+    background-color: #112A46;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 0px 5px;
+    margin-bottom: 30px;  
+}
+
+.headerTitlePrice{
+    width: 42%;
+    height: auto;
+    background-color: #112A46;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 0px 5px;
+    margin-bottom: 35px;  
+}
+
+.headerContainer{
+    display: flex;
+}
+
+.headerContainerPrice{
+    display: flex;
+    width: 100%;
+}
+
+.fullWidth{
+    width: 100%;  
+}
+
+.fillNameWidth{
+    margin-left:20px;
+    width: 120px;
+}
+
+.formSidesMargin{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.currencyLogo{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.headerContainerWithSwitch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.switchBox{
+    margin-top: 1px;
+    width: 35%;
+    
+}
+
+.switchLabel{
+    position: absolute;
+    margin-top: 13px;
+    left: 67px;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgb(54, 54, 54);
+}
+
+.rangePriceBox{
+    width: 83%;
+    margin-right: 30px;
+    margin-left: -140px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.outlineWidth{
+    width: 40%;
+}
+
+.sendButton{
+    margin-top: 20px;
+}
+
+.cancelButton{
+    position: sticky;
+    top: 0px;
+    border-radius: 50%;
+    float: left;
+    z-index: 1;
+
+}
